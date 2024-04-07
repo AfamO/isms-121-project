@@ -37,6 +37,38 @@
                 <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
             </figure>
             </section>
+
+            <section>
+                <h3>My Cat Form</h3>
+                <form action="https://afamoapp.glitch.me/api/submit-form">
+                    <fieldset>
+                        <legend>Is your cat indoor or outdoor?</legend>
+                    <label><input id="indoor" type="radio" name="indoor-outdoor" checked>Indoor</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor">Outdoor</label><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What's your cat's personality></legend>
+                        <input type="checkbox" id="loving" name="personality" checked><label for="loving">Loving</label>
+                        <input type="checkbox" id="lazy" name="personality"><label for="lazy">Lazy</label>
+                        <input type="checkbox" id="energetic" name="personality"><label for="energetic">Energetic</label>
+
+                        
+                    </fieldset>
+                    <input type="text" name="cat photo info" placeholder="Enter your cat phot info" required><br>
+            
+                    <fieldset>
+                        <legend>What cat type and image do you prefer?</legend>
+                        <select id="cat-types">
+                            <option>--Please select the type</option>
+                            <option value="Ragdoll">Ragdoll</option>
+                            <option value="Devon Rex">Devon Rex</option>
+                            <option value="Exotic Shorthair">Exotic Shorthair</option>
+                        </select><label for="cat-types"> Cat Types</label>
+                        <input type="file" id="cat-pic"><label for="cat-types"> Cat Image</label>
+                    </fieldset>
+                    <button>Submit</button>
+                </form>
+            </section>
             
         </main>
         <footer>
