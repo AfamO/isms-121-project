@@ -1,0 +1,73 @@
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+body {
+    background-image: url(https://cdn.glitch.global/1cd8c231-f820-4b94-8a3f-da5bba9d1e13/thumbnails%2Fbeans.jpg?1713512236884);
+    font-family: sans-serif;
+}
+
+.menu {
+    background-color: burlywood;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+
+}
+
+.established {
+    font-style: italic;
+}
+
+.item p {
+    display: inline-block;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+.dessert, .flavor {
+    text-align: left;
+    width: 75%;
+}
+
+hr {
+    height: 3px;
+    background-color: brown;
+    border-color: brown;
+    border-radius: 3px;
+   }
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -23px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

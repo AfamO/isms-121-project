@@ -1,0 +1,27 @@
+h1, h2, p {
+            text-align: center;
+       }
+
+h1 {
+    font-size: 40px;
+}
+
+body {
+    background-image: url();
+    font-family: sans-serif;
+}
+
+.menu {
+    background-color: burlywood;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.established {
+    font-style: italic;
+}
+
+.item {
+  display: inline-block;
+  
+}
