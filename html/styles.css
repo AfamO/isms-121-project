@@ -26,30 +26,34 @@ body {
     font-style: italic;
 }
 
-.item p {
-    display: inline-block;
-}
-.price {
-    text-align: right;
-    width: 25%;
-}
-.dessert, .flavor {
-    text-align: left;
-    width: 75%;
-}
 
 hr {
     height: 3px;
     background-color: brown;
     border-color: brown;
-    border-radius: 3px;
    }
 
-img{
+.item p {
+    display: inline-block
+}
+
+.dessert, .flavor {
+width: 75%;
+text-align: left;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: -23px;
+}
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 a {
@@ -57,17 +61,13 @@ a {
 }
 
 a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover {
     color: brown;
 }
 
-a:active {
+a:active{
     color: brown;
-}
-
-h1, h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
